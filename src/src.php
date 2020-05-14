@@ -25,8 +25,7 @@ if (preg_match('/^[0-9]{11}$/', $cpf)) {
   echo ("CPF inválido\n");
 }
 
-
-if (preg_match('/[A-Za-z]{3}-[0-9]{4}/', $placa)) { 
+if (preg_match('/^[A-Za-z]{3}-[0-9]{4}$/', $placa)) { 
   echo ("Placa válida\n");
 } else {  
   echo ("Placa inválida\n");};
