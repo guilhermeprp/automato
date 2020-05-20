@@ -13,7 +13,7 @@ choco install php
 ```
 <br>
 
->Caso você não tenha o __Chocolatey__ instalado em sua máquina Windows, abra o Poweshell como administrador e rode o comando abaixo.
+>Caso você não tenha o __Chocolatey__ instalado em sua máquina Windows, abra o Powershell como administrador e rode o comando abaixo.
 
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
